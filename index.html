@@ -5,18 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- meta description -->
-     <meta name="author" content="SC CSE Links" />
-     <meta name="description" content="All links of SC CSE in one place! " />
-     <meta property="og:site_name" content="Students' Chapter Cse Links" />
-     <meta property="og:title" content="Students' Chapter Cse Links" />
-     <meta property="og:description" content="The official links page of Students' Chapter CSE AOT." />
-     <meta property="og:type" content="website" />
-     <meta
-     property="og:image"
-     content="https://raw.githubusercontent.com/diptanshumahish/scCseBioLink/master/logo.svg"
-   />
-     <link rel="shortcut icon" href="/logo.svg" type="image/x-icon">
+    <!-- meta description -->
+    <meta name="author" content="SC CSE Links" />
+    <meta name="description" content="All links of SC CSE in one place! " />
+    <meta property="og:site_name" content="Students' Chapter Cse Links" />
+    <meta property="og:title" content="Students' Chapter Cse Links" />
+    <meta property="og:description" content="The official links page of Students' Chapter CSE AOT." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/diptanshumahish/scCseBioLink/master/logo.svg" />
+    <link rel="shortcut icon" href="/logo.svg" type="image/x-icon">
     <title>SC CSE </title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -27,9 +25,11 @@
             box-sizing: border-box;
             font-family: 'Montserrat', sans-serif;
         }
-        ::-webkit-scrollbar{
+
+        ::-webkit-scrollbar {
             display: none;
         }
+
         body {
             background-color: black;
         }
@@ -74,11 +74,12 @@
             flex-direction: column;
             padding: 20px;
             gap: 2vh;
-            color:grey;
-           
+            color: grey;
+
 
         }
-        .linkss{
+
+        .linkss {
             color: white;
             text-align: center;
             font-size: 23px;
@@ -96,13 +97,15 @@
             cursor: pointer;
         }
 
-        .socials:active,.ingenuim:active {
+        .socials:active,
+        .ingenuim:active {
             transition: 200ms;
             transform: scale(0.96);
             background-color: rgb(239, 237, 237);
         }
 
-        .fa-brands,.fa-solid {
+        .fa-brands,
+        .fa-solid {
             font-size: 30px;
         }
 
@@ -112,41 +115,53 @@
             flex-direction: column;
             font-weight: 800;
         }
-        
+
 
         .socialText span {
             font-size: 15px;
             color: grey;
             font-weight: 600;
         }
-        #facebook{
+
+        #facebook {
             color: #3b5998;
         }
-        #twitter{
+
+        #twitter {
             color: #1DA1F2;
         }
-        #linkedin{
+
+        #linkedin {
             color: #2867B2;
         }
-        #mail{
+
+        #mail {
             color: #BB001B;
         }
-        #whatsapp{
+
+        #whatsapp {
             color: green;
         }
-        #instagram{
+
+        #instagram {
             color: #C13584;
         }
-        #otherLinks{
+
+        #youtube {
+            color: #4d121b;
+        }
+
+        #otherLinks {
             display: flex;
             flex-direction: column;
             color: white;
             padding: 20px;
             text-align: center;
             font-size: 20px;
-            
+
         }
-        .otherLinksCards{
+
+        .otherLinksCards {
             background-color: white;
             color: black;
             border-radius: 20px;
@@ -156,32 +171,38 @@
             display: flex;
             flex-direction: column;
         }
-        .otherLinksCards span{
+
+        .otherLinksCards span {
             font-size: 15px;
             font-weight: normal;
             color: rgb(96, 94, 94);
         }
-        #ingenium{
+
+        #ingenium {
             background-color: rgb(232, 196, 16);
             cursor: pointer;
         }
-        footer{
+
+        footer {
             color: white;
             text-align: center;
             padding: 20px;
         }
+
         @media screen and (min-width:700px) {
-            html{
+            html {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-               
+
             }
-            body{
-                max-width:700px ;
+
+            body {
+                max-width: 700px;
                 min-width: 700px;
             }
-            header{
+
+            header {
                 min-height: 500px;
             }
         }
@@ -232,8 +253,20 @@
                     <span>/ @sccse</span>
                 </div>
             </div>
+            <!-- youtube  -->
+            <div class="socials" id="youtube"
+                onclick="location.href='https://youtube.com/channel/UCFvgz8LpzW5Vv9wSJWPpypQ'">
+                <div class="socialLogo">
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+                <div class="socialText">
+                    Youtube <br>
+                    <span>/ @SCCSE IEI</span>
+                </div>
+            </div>
             <!-- linkedin  -->
-            <div class="socials" id="linkedin" onclick="location.href='https://www.linkedin.com/company/student-s-chapter-of-iei-cse-academy-of-technology/about/'">
+            <div class="socials" id="linkedin"
+                onclick="location.href='https://www.linkedin.com/company/student-s-chapter-of-iei-cse-academy-of-technology/about/'">
                 <div class="socialLogo">
                     <i class="fa-brands fa-linkedin"></i>
                 </div>
@@ -242,8 +275,8 @@
                     <span>/ @ieiaot</span>
                 </div>
             </div>
-             <!-- mail  -->
-             <div class="socials" id="mail">
+            <!-- mail  -->
+            <div class="socials" id="mail">
                 <div class="socialLogo">
                     <i class="fa-solid fa-envelope"></i>
                 </div>
@@ -253,7 +286,8 @@
                 </div>
             </div>
             <!-- whatsapp  -->
-            <div class="socials" id="whatsapp" onclick="location.href='https://chat.whatsapp.com/HHelX0nGfHp4VOLHwdTFwN'">
+            <div class="socials" id="whatsapp"
+                onclick="location.href='https://chat.whatsapp.com/HHelX0nGfHp4VOLHwdTFwN'">
                 <div class="socialLogo">
                     <i class="fa-brands fa-whatsapp"></i>
                 </div>
@@ -262,17 +296,17 @@
                     <span>/ join the group </span>
                 </div>
             </div>
-            </div>
-            <div id="otherLinks">
-                Other Links
-                <br>
-                <br>
-                <div class="otherLinksCards" id="ingenium" onclick="location.href='https://aotingenium.com/'">
-                    Ingenium <br>
-                    <span> The official web magazine of AOT</span>
+        </div>
+        <div id="otherLinks">
+            Other Links
+            <br>
+            <br>
+            <div class="otherLinksCards" id="ingenium" onclick="location.href='https://aotingenium.com/'">
+                Ingenium <br>
+                <span> The official web magazine of AOT</span>
 
-                </div>
             </div>
+        </div>
 
     </main>
     <footer>
