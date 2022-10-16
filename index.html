@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- meta description -->
+     <meta name="author" content="SC CSE Links" />
+     <meta name="description" content="All links of SC CSE in one place! " />
+     <meta property="og:site_name" content="Students' Chapter Cse Links" />
+     <meta property="og:title" content="Students' Chapter Cse Links" />
+     <meta property="og:description" content="The official links page of Students' Chapter CSE AOT." />
+     <meta property="og:type" content="website" />
+     <link rel="shortcut icon" href="/logo.svg" type="image/x-icon">
+    <title>SC CSE </title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+        ::-webkit-scrollbar{
+            display: none;
+        }
+        body {
+            background-color: black;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            height: 40vh;
+            min-height: 375px;
+        }
+
+        #headerLeft {
+            height: 100%;
+            width: 100%;
+
+        }
+
+        .sclogo {
+            height: 100%;
+            width: 100%;
+            background: url(/logo.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #headerRight {
+            color: white;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 900;
+        }
+
+        #headerRight span {
+            font-size: 25px;
+            color: rgba(255, 255, 255, 0.81);
+            font-weight: normal;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.823);
+        }
+
+        #links {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            gap: 2vh;
+            color:grey;
+           
+
+        }
+        .linkss{
+            color: white;
+            text-align: center;
+            font-size: 23px;
+            width: 100%;
+        }
+
+        .socials {
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .socials:active {
+            transition: 200ms;
+            transform: scale(0.96);
+            background-color: rgb(239, 237, 237);
+        }
+
+        .fa-brands,.fa-solid {
+            font-size: 30px;
+        }
+
+        .socialText {
+            font-size: 25px;
+            display: flex;
+            flex-direction: column;
+            font-weight: 800;
+        }
+        
+
+        .socialText span {
+            font-size: 15px;
+            color: grey;
+            font-weight: 600;
+        }
+        #facebook{
+            color: #3b5998;
+        }
+        #twitter{
+            color: #1DA1F2;
+        }
+        #linkedin{
+            color: #2867B2;
+        }
+        #mail{
+            color: #BB001B;
+        }
+        #whatsapp{
+            color: green;
+        }
+        #instagram{
+            color: #C13584;
+        }
+        #otherLinks{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 20px;
+        }
+        .otherLinksCards{
+            background-color: white;
+            color: black;
+            border-radius: 20px;
+            font-size: 25px;
+            padding: 10px;
+            font-weight: 800;
+            display: flex;
+            flex-direction: column;
+        }
+        .otherLinksCards span{
+            font-size: 15px;
+            font-weight: normal;
+            color: rgb(96, 94, 94);
+        }
+        #ingenium{
+            background-color: rgb(232, 196, 16);
+        }
+        footer{
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        @media screen and (min-width:700px) {
+            html{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+               
+            }
+            body{
+                max-width:700px ;
+                min-width: 700px;
+            }
+            header{
+                min-height: 500px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="headerLeft">
+            <div class="sclogo"></div>
+        </div>
+        <div id="headerRight">
+            Student's Chapter CSE <br>
+            <span>
+                Bio Links
+            </span>
+        </div>
+    </header>
+    <main>
+        <div id="links">
+            <!-- facebook  -->
+            <div class="socials" id="facebook" onclick="location.href='https://www.facebook.com/aotstudentschapter' ">
+                <div class="socialLogo">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="socialText">
+                    Facebook <br>
+                    <span>/ @aotstudentschapter</span>
+                </div>
+            </div>
+            <!-- twitter  -->
+            <div class="socials" id="twitter" onclick="location.href='https://www.twitter.com/ieiaot' ">
+                <div class="socialLogo">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="socialText">
+                    Twitter <br>
+                    <span>/ @ieiaot</span>
+                </div>
+            </div>
+            <!-- instagram  -->
+            <div class="socials" id="instagram">
+                <div class="socialLogo">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="socialText">
+                    Instagram <br>
+                    <span>/ @sccse</span>
+                </div>
+            </div>
+            <!-- linkedin  -->
+            <div class="socials" id="linkedin" onclick="location.href='https://www.linkedin.com/company/student-s-chapter-of-iei-cse-academy-of-technology/about/'">
+                <div class="socialLogo">
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <div class="socialText">
+                    LinkedIn <br>
+                    <span>/ @ieiaot</span>
+                </div>
+            </div>
+             <!-- mail  -->
+             <div class="socials" id="mail">
+                <div class="socialLogo">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="socialText">
+                    Mail <br>
+                    <span>/ sccse@gmail.com</span>
+                </div>
+            </div>
+            <!-- whatsapp  -->
+            <div class="socials" id="whatsapp">
+                <div class="socialLogo">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="socialText">
+                    Whatsapp <br>
+                    <span>/ +1234567890</span>
+                </div>
+            </div>
+            </div>
+            <div id="otherLinks">
+                Other Links
+                <br>
+                <br>
+                <div class="otherLinksCards" id="ingenium">
+                    Ingenium <br>
+                    <span> The official web magazine of AOT</span>
+
+                </div>
+            </div>
+
+    </main>
+    <footer>
+        &copy;SC CSE 2022
+    </footer>
+    <script src="https://kit.fontawesome.com/0ac8d96b33.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
