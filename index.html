@@ -92,7 +92,7 @@
             cursor: pointer;
         }
 
-        .socials:active {
+        .socials:active,.otherLinksCards:active {
             transition: 200ms;
             transform: scale(0.96);
             background-color: rgb(239, 237, 237);
@@ -140,6 +140,7 @@
             padding: 20px;
             text-align: center;
             font-size: 20px;
+            cursor: pointer;
         }
         .otherLinksCards{
             background-color: white;
@@ -241,9 +242,9 @@
                 <div class="socialLogo">
                     <i class="fa-solid fa-envelope"></i>
                 </div>
-                <div class="socialText">
+                <div class="socialText" onclick="location.href='mailto:sccseaot@gmail.com'">
                     Mail <br>
-                    <span>/ sccse@gmail.com</span>
+                    <span>/ sccse.aot@gmail.com</span>
                 </div>
             </div>
             <!-- whatsapp  -->
@@ -261,7 +262,7 @@
                 Other Links
                 <br>
                 <br>
-                <div class="otherLinksCards" id="ingenium">
+                <div class="otherLinksCards" id="ingenium" onclick="location.href='https://aotingenium.com/'">
                     Ingenium <br>
                     <span> The official web magazine of AOT</span>
 
